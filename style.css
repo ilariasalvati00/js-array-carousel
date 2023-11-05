@@ -1,0 +1,36 @@
+*{
+    box-sizing: border-box;
+    margin: 0;
+}
+
+.photo-container{
+    position: relative;
+    width: 70%;
+    height: 50vh;
+    margin: 25vh auto;
+}
+
+.photo-container img{
+    display: block;
+    height: 100%;
+    margin:auto;
+}
+
+.photo-container i{
+    background-color: grey;
+    border-radius: 50%;
+    padding: 3px 5px;
+}
+
+.photo-container .fa-arrow-up{
+    position: absolute;
+    top: 5%;
+    left: calc(50% - 6px);
+}
+
+.photo-container .fa-arrow-down{
+    position: absolute;
+    top: calc(95% - 19px);
+    left: calc(50% - 6px);
+}
+
